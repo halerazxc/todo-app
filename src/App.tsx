@@ -31,7 +31,7 @@ function App() {
                 RECOMMENDED
               </h1>
               <div className="flex flex-wrap gap-3 pt-[16px]">
-                {buttonsTitle.map((label, index) => (
+                {buttonsTitle.map((label) => (
                   <Button className="bg-[#F3EFEE] hover:bg-gray-200 text-black">
                     {label}
                   </Button>
